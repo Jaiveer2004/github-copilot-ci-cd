@@ -30,6 +30,7 @@ logs/
 # Testing coverage
 coverage/
 nyc_output/
+.eslintcache
 
 # Temporary files
 tmp/

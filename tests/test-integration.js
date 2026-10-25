@@ -1,5 +1,5 @@
 import { test } from 'node:test';
-import { deepStrictEqual, ok } from 'node:assert/strict';
+import { ok } from 'node:assert/strict';
 
 // Integration test for the actual application
 try {

@@ -104,3 +104,6 @@ if (document.readyState === 'loading') {
 } else {
     initApp();
 }
+
+globalThis.loadApiData = loadApiData;
+globalThis.loadUsers = loadUsers;
