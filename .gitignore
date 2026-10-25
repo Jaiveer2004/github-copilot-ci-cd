@@ -1,0 +1,55 @@
+# Dependencies
+dist/
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build artifacts
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Testing coverage
+coverage/
+nyc_output/
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# Package publishing
+npm-debug.log*
+npm-error.log*
+.yarn-integrity
+
+# System files
+*.DS_Store
+*.exe
+*.pdb
+*.zip
+
+# Memory snapshots
+*.mem
+
+# Generated documentation
+doc/

@@ -1,0 +1,23 @@
+{
+  "name": "javascript-spa-simple",
+  "version": "1.0.0",
+  "description": "A simple Single Page Application (SPA) built with Node.js and Express using modern ES modules",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/*.js"
+  },
+  "keywords": [
+    "spa",
+    "nodejs",
+    "express",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple SPA - Home</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/api/data">API Data</a>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome to Simple SPA</h1>
+        <p>This is a Single Page Application built with Node.js and Express.</p>
+        <div id="content">
+            <h2>Application Features</h2>
+            <ul>
+                <li>Modern ES6+ JavaScript</li>
+                <li>Node.js HTTP server</li>
+                <li>Express.js routing</li>
+                <li>RESTful API endpoints</li>
+                <li>Client-side routing simulation</li>
+            </ul>
+        </div>
+
+        <div id="api-section">
+            <h3>API Response</h3>
+            <button onclick="loadApiData()">Load API Data</button>
+            <div id="api-data" class="api-response"></div>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
