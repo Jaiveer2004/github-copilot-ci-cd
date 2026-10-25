@@ -34,7 +34,7 @@ jobs:
         run: npm ci
 
       - name: Upgrade packages
-        run: ncu -u
+        run: npx --no-install ncu -u
 
       - name: Install upgraded dependencies
         run: npm install
