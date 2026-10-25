@@ -33,6 +33,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Upgrade packages
+        run: ncu -u
+
+      - name: Install upgraded dependencies
+        run: npm install
+
+      - name: Audit dependencies
+        run: npm run audit
+
       - name: Run lint
         run: npm run lint
 

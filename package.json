@@ -8,7 +8,9 @@
     "start": "node server.js",
     "dev": "node --watch server.js",
     "test": "node --test tests/*.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "audit": "npm audit --audit-level=high",
+    "check-updates": "ncu"
   },
   "keywords": [
     "spa",
@@ -24,6 +26,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.13.0",
-    "globals": "^17.13.0"
+    "globals": "^17.13.0",
+    "npm-check-updates": "^22.2.9"
   }
 }
