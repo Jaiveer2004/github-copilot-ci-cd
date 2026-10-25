@@ -35,7 +35,7 @@ A modern Single Page Application (SPA) built with Node.js and Express, featuring
 
 1. Install dependencies:
    ```bash
-   npm install
+   npm ci
    ```
 
 2. Start the server:
